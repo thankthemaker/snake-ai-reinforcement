@@ -129,7 +129,7 @@ def play_cli(env, agent, num_episodes=10):
         print(summary.format(episode + 1, num_episodes, env.stats.timesteps_survived, env.stats.fruits_eaten))
 
     print()
-    print('Fruits eaten {:.1f} +/- stddev {:.1f}'.format(np.mean(fruit_stats), np.std(fruit_stats)))
+    print('Fruits eaten mean {:.1f} max {:.1f} +/- stddev {:.1f}'.format(np.mean(fruit_stats), np.max(fruit_stats), np.std(fruit_stats)))
 
 
 def play_gui(env, agent, num_episodes):

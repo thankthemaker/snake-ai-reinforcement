@@ -11,7 +11,7 @@ class PyGameGUI:
     FPS_LIMIT = 60
     AI_TIMESTEP_DELAY = 100
     HUMAN_TIMESTEP_DELAY = 500
-    CELL_SIZE = 20
+    CELL_SIZE = 40
 
     SNAKE_CONTROL_KEYS = [
         pygame.K_UP,
